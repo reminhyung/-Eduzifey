@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Edukasi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #87CEEB;
+            color: #333;
+        }
+
+        header {
+            background: white;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            color: #3498db;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #3498db;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .container {
+            padding: 40px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #3498db;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Eduzifey</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Materi</a>
+            <a href="#">Latihan</a>
+            <a href="#">Kontak</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Belajar Materi Kelas 11 Jadi Lebih Mudah!</h2>
+        <p>Tempat belajar online yang simpel dan menyenangkan</p>
+<hr>
+          <ol>
+            <p>Daftar Materi:</p>
+  <li>Matematika Wajib</li>
+  <li>Matematika TL</li>
+  <li>Fisika</li>
+  <li>Bahasa Inggris</li>
+</ol>
+        
+    </section>
+
+    <section class="container">
+      <a href="https://akupintar.id/belajar/-/online/materi/11-mia/matematika-wajib/98122935" clads="card-link">
+        <div class="card">
+            <h3>Matematika Wajib X AkuPintar</h3>
+            <p>Pelajari konsep dasar hingga lanjutan dengan mudah.</p>
+        </div>
+        </a>
+
+      <a href="https://youtube.com/playlist?list=PLsriS5KlCKIuJKDlJLuofLDG3qfIscVkp&si=rQki3fPGemVwskMu" clads="card-link">
+        <div class="card">
+            <h3>Matematika TL X PakJul</h3>
+            <p>Pelajari Matematika Tingkat Lanjut dengan mudah.</p>
+        </div>
+        </a>
+
+<a href="https://akupintar.id/belajar/-/online/materi/11-mia/fisika/56771" class="card-link">
+  <div class="card">
+    <h3>Fisika X AkuPintar.id</h3>
+    <p>Pahami hukum-hukum alam dengan penjelasan sederhana.</p>
+  </div>
+</a>
+
+<a href="https://www.jagoanbahasainggris.com/2017/07/materi-pelajaran-bahasa-inggris-sma-kelas-11-semester-1-dan-2.html?m=1" class="card-link">
+        <div class="card">
+            <h3>Bahasa Inggris</h3>
+            <p>Tingkatkan kemampuan grammar dan speaking kamu.</p>
+        </div>
+        </a>
+    </section>
+
+    <footer>
+        <p>© 2026 EduZifey - All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
